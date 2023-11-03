@@ -59,3 +59,4 @@ var groceries = [
 ]
 
 console.log("i like " + groceries[1][3] + " and " + groceries[0][2]);
+
