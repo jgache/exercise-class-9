@@ -18,17 +18,17 @@
  * Write a single line comment as to what will be displayed
  */
 
-// var classroomSupplies = [];
+var classroomSupplies = [];
 
-// classroomSupplies[0] = "pen";
-// classroomSupplies[1] = "paper";
-// classroomSupplies[2] = "desk";
-// classroomSupplies[3] = "computer";
+classroomSupplies[0] = "pen";
+classroomSupplies[1] = "paper";
+classroomSupplies[2] = "desk";
+classroomSupplies[3] = "computer";
 
-// console.log(classroomSupplies); //[ 'pen', 'paper', 'desk', 'computer' ]
+console.log(classroomSupplies); //[ 'pen', 'paper', 'desk', 'computer' ]
 
-// classroomSupplies.sort();
-// console.log(classroomSupplies) //[ 'computer', 'desk', 'paper', 'pen' ]
+classroomSupplies.sort();
+console.log(classroomSupplies) //[ 'computer', 'desk', 'paper', 'pen' ]
 
 
 
@@ -44,14 +44,14 @@
  * add a single line comment as to what the output will be
  */
 
-// var travelPlaces = [];
+var travelPlaces = [];
 
-// travelPlaces[0] = "Toronto";
-// travelPlaces[1] = "New York";
-// travelPlaces[2] = "Australia";
-// travelPlaces[3] = "Spain";
+travelPlaces[0] = "Toronto";
+travelPlaces[1] = "New York";
+travelPlaces[2] = "Australia";
+travelPlaces[3] = "Spain";
 
-// console.log(travelPlaces); // [ 'Toronto', 'New York', 'Australia', 'Spain' ]
+console.log(travelPlaces); // [ 'Toronto', 'New York', 'Australia', 'Spain' ]
 
 
 
@@ -70,10 +70,10 @@
  * Then console log out the baking recipies. Write a single line comment as to what will be displayed.
  */
 
-// var bakingRecipies = ["brownies", "cookies", "cakes", "tarts"];
+var bakingRecipies = ["brownies", "cookies", "cakes", "tarts"];
 
-// bakingRecipies.pop();
-// console.log(bakingRecipies); //[ 'brownies', 'cookies', 'cakes' ]
+bakingRecipies.pop();
+console.log(bakingRecipies); //[ 'brownies', 'cookies', 'cakes' ]
 
 
 
@@ -107,7 +107,7 @@ var schedule = [
 
 console.table(schedule);
 
-console.log(`i am taking ${schedule[2][0]}, ${schedule[2][1]} that is worth ${schedule[2][2]} credits`)
+console.log(`i am taking ${schedule[2][0]}, ${schedule[2][1]} that is worth ${schedule[2][2]} credits`);
 
 
 
